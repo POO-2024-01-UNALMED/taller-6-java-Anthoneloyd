@@ -11,7 +11,7 @@ public class Fabricante {
 
     public static Fabricante fabricaMayorVentas(){
         int max = 0;
-        Fabricante fabricanteMasVendedor;
+        Fabricante fabricanteMasVendedor = null;
         for (Fabricante fabricante : Vehiculo.fabricantes) {
             int cantidad = 0;
             for (Fabricante fabricante1 : Vehiculo.fabricantes) {

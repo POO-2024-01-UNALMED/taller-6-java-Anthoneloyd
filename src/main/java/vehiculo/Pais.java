@@ -9,7 +9,7 @@ public class Pais {
 
     public static Pais paisMasVendedor(){
         int max = 0;
-        Pais paisMasVendedor;
+        Pais paisMasVendedor = null;
         for (Pais pais : Vehiculo.paises) {
             int cantidad = 0;
             for (Pais pais1 : Vehiculo.paises) {
