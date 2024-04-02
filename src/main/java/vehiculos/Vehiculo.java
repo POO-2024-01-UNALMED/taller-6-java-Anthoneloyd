@@ -1,4 +1,4 @@
-package vehiculo;
+package vehiculos;
 import java.util.ArrayList;
 
 public class Vehiculo {
@@ -36,8 +36,12 @@ public class Vehiculo {
                 "\nCamiones: " + Camion.cantidadCamiones;
     }
 
-
-
+    public static int getCantidadVehiculos(){
+        return cantidadVehiculos;
+    }
+    public static void setCantidadVehiculos(int cantidadVehiculos){
+        Vehiculo.cantidadVehiculos = cantidadVehiculos;
+    }
 
     public String getPlaca() {
         return placa;
